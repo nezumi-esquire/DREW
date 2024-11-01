@@ -1,0 +1,6 @@
+.posts-container{
+    color: var(--color-default);
+    margin: 25% 5%;
+    justify-content: center;
+    text-align: center;
+}

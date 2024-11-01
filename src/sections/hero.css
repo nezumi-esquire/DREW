@@ -1,0 +1,25 @@
+.hero-container {
+    margin-top: 25%;
+    overflow: hidden;
+    width: 100%;
+    background-color: #000000;
+}
+.hero-text {
+    color: var(--color-default);
+    font-size: 15vw;
+    white-space: nowrap;
+    padding: 20px 0;
+    display: inline-block;
+  }
+@keyframes scroll {
+    0% {
+        transform: translate3d(0,0,0);
+}
+100% {
+    transform: translate3d(-50%, 0 ,0 );
+}
+}
+.hero-text.animate {
+    animation: scroll var(--animation-duration) linear infinite;
+    will-change: transform;
+}
