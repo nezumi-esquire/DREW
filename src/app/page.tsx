@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main id="main">
       <Hero />
+      <Cards />
       <Posts />
     </main>
   );

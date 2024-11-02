@@ -15,18 +15,16 @@ export default function Posts() {
   });
   return (
     <div className="posts-container" data-aos="fade-up">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus
-      dictum placerat. Vestibulum eleifend elementum elit, non bibendum risus
-      ullamcorper quis. Mauris ullamcorper pulvinar neque eu eleifend. Maecenas
-      vulputate erat cursus elit tincidunt gravida. Maecenas metus magna, porta
-      et turpis sed, tristique posuere orci. Aenean ac accumsan odio, vel
-      maximus justo. Proin fermentum ullamcorper tincidunt. Quisque dapibus eros
-      posuere, congue ligula vitae, vehicula arcu. Integer eget magna mauris.
-      Quisque et justo viverra, accumsan massa nec, rhoncus augue. Proin finibus
-      vulputate eros, nec vehicula ipsum. Nulla facilisi. Praesent et metus eget
-      augue scelerisque porta. Aenean sagittis ex vel rhoncus aliquam. Proin
-      euismod nibh ut urna tristique pulvinar in nec nisi. Fusce pharetra
-      consequat laoreet. Sed tempor ex elementum condimentum consequat.
+      LOREM IPSUM DOLOR SIT AMET AC A ACCUMSAN LACUS PRIMIS. FACILISIS APTENT
+      EUISMOD FINIBUS AT PER MOLESTIE TELLUS HAC. NUNC HIMENAEOS PARTURIENT
+      FUSCE FEUGIAT CRAS VEHICULA DAPIBUS TELLUS POSUERE MOLLIS. PEDE DUIS MAGNA
+      SEM SED PULVINAR. VOLUTPAT MOLESTIE FERMENTUM SI NISL MI POTENTI. ENIM
+      PLATEA IN ELIT SAPIEN PRETIUM PENATIBUS NATOQUE. SIT LECTUS NEC MI CURAE
+      ETIAM EUISMOD ELEMENTUM TEMPOR LACUS NULLAM. RHONCUS DICTUMST ADIPISCING
+      MUS AUGUE CURABITUR FACILISI LIBERO NIBH. MOLLIS NEQUE LIGULA PULVINAR EX
+      ELIT ERAT TORQUENT ELEIFEND CONSECTETUR. SENECTUS FAUCIBUS AUCTOR LAOREET
+      VIVAMUS CONVALLIS MONTES HABITASSE AC. NATOQUE SOCIOSQU PORTA SUSPENDISSE
+      SEMPER POTENTI FINIBUS LEO MUS.
     </div>
   );
 }

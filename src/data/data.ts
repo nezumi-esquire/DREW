@@ -34,8 +34,8 @@ export const navs = [
 export const scis = [
   {
     id: 1,
-    icon: 'bi-facebook',
-    link: '',
+    icon: 'bi-github',
+    link: 'https://github.com/nezumi-esquire',
   },
   {
     id: 2,
@@ -45,51 +45,23 @@ export const scis = [
   {
     id: 3,
     icon: 'bi-instagram',
-    link: '',
+    link: 'https://www.instagram.com/qitian__dasheng/',
   },
 ];
 
 export const heroSlides = [
   {
     id: 1,
-    bgImg: 'assets/img/post-slide-1.jpg',
-    title: 'The Best Homemade Masks for Face (keep the Pimples Away)',
-    brief: `Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit. Quidem neque est mollitia! Beatae minima assumenda
-    repellat harum vero, officiis ipsam magnam obcaecati
-    cumque maxime inventore repudiandae quidem
-    necessitatibus rem atque.`,
+    bgImg: 'assets/img/lq.png',
+    title: 'LIFEQUEST',
+    brief: `A LIFE-ORIENTED SIDESCROLLING RPG THAT WILL  TAKE YOU ON A JOURNEY OF SELF-DISCOVERY AND GROWTH.`,
   },
   {
     id: 2,
-    bgImg: 'assets/img/post-slide-2.jpg',
+    bgImg: 'assets/img/trivha.png',
     title:
-      '17 Pictures of Medium Length Hair in Layers That Will Inspire Your New Haircut',
-    brief: `Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit. Quidem neque est mollitia! Beatae minima assumenda
-    repellat harum vero, officiis ipsam magnam obcaecati
-    cumque maxime inventore repudiandae quidem
-    necessitatibus rem atque.`,
-  },
-  {
-    id: 3,
-    bgImg: 'assets/img/post-slide-3.jpg',
-    title: '9 Half-up/half-down Hairstyles for Long and Medium Hair',
-    brief: `Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit. Quidem neque est mollitia! Beatae minima assumenda
-    repellat harum vero, officiis ipsam magnam obcaecati
-    cumque maxime inventore repudiandae quidem
-    necessitatibus rem atque.`,
-  },
-  {
-    id: 4,
-    bgImg: 'assets/img/post-slide-4.jpg',
-    title: '13 Amazing Poems from Shel Silverstein with Valuable Life Lessons',
-    brief: `Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit. Quidem neque est mollitia! Beatae minima assumenda
-    repellat harum vero, officiis ipsam magnam obcaecati
-    cumque maxime inventore repudiandae quidem
-    necessitatibus rem atque.`,
+      'TRIVHA',
+    brief: `AN ONLINE MULTIPLAYER QUIZ GAME THAT TESTS YOUR KNOWLEDGE ON VARIOUS SUBJECTS.`,
   },
 ];
 
