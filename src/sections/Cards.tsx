@@ -50,7 +50,7 @@ export default function Cards() {
               className="sliderFeaturedPosts"
             >
               {heroSlides.map((slide) => (
-                <SwiperSlide>
+                <SwiperSlide key={slide.id}>
                   <HeroSlide slide={slide} />
                 </SwiperSlide>
               ))}

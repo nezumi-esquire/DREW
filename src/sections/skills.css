@@ -1,0 +1,18 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20%;
+}
+
+.skills-container {
+    color: var(--color-primary);
+    margin-top: 40%;
+}
+
+.lang-container {
+    color: var(--color-primary);
+    margin-top: 20%;
+    align-self: flex-start;
+    margin-left: 20%;
+}

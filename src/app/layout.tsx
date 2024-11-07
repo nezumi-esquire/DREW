@@ -18,7 +18,6 @@ const fugazOne = Fugaz_One({
   subsets: ["latin"],
   weight: "400",
 });
-
 export const metadata: Metadata = {
   title: "DREW.",
   description: "Pleased to meet you.",

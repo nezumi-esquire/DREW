@@ -49,6 +49,50 @@ export const scis = [
   },
 ];
 
+export const exps = [
+  {
+    id: 1,
+    lang: 'React Development',
+    level: 'Intermediate'
+  },
+  {
+    id: 2,
+    lang: 'Svelte Development',
+    level: 'Novice'
+  },
+  {
+    id: 3,
+    lang: 'Node.js Development',
+    level:  'Intermediate'
+  },
+  {
+    id: 4,
+    lang: 'Next.js',
+    level:  'Intermediate'
+  },
+]
+export const skills = [
+  {
+    id: 1,
+    skill: '98+ WPM',
+    level: 'Intermediate'
+  },
+  {
+    id: 2,
+    skill: 'Japanese & English Proficiency',
+    level: 'Novice'
+  },
+  {
+    id: 3,
+    skill: 'Project Management experience',
+    level:  'Intermediate'
+  },
+  {
+    id: 4,
+    skill: 'Magaling Sumibak',
+    level:  'Intermediate'
+  },
+]
 export const heroSlides = [
   {
     id: 1,
