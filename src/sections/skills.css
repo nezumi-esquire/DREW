@@ -16,3 +16,22 @@
     align-self: flex-start;
     margin-left: 20%;
 }
+
+.typing-demo {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+.typing-demo::after {
+    content: "|";
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }

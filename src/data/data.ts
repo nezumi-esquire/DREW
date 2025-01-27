@@ -79,12 +79,12 @@ export const skills = [
   },
   {
     id: 2,
-    skill: 'Japanese & English Proficiency',
+    skill: 'C2 Level English Proficiency',
     level: 'Novice'
   },
   {
     id: 3,
-    skill: 'Project Management experience',
+    skill: 'Project Management Experience',
     level:  'Intermediate'
   },
   {
