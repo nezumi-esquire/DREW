@@ -5,27 +5,28 @@ import "./header.css";
 import Nav from "./Nav";
 import Sci from "./Sci";
 import SearchForm from "./SearchForm";
+import Link from "next/link";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [on, setOn] = useState(false);
 
-  const handleFormOpen = (e: Event | any) => {
+  const handleFormOpen = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     setOpen(!open);
   };
   const handleToggleMenu = () => {
     setOn(!on);
-    let body: HTMLElement | any = document.querySelector("body");
+    const body: HTMLElement = document.querySelector("body")!;
     body.classList.toggle("mobile-nav-active");
   };
   return (
     <header id="header" className="header d-flex align-items-center fixed-top">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="/" className="logo d-flex align-items-center">
-          {<img src="null" alt="" />}
+        <Link href="/" className="logo d-flex align-items-center">
+          <img src="null" alt="" />
           <h1>DREW</h1>
-        </a>
+        </Link>
         <Nav />
         <div className="position-relative">
           <Sci />
